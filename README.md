@@ -35,7 +35,7 @@ From this table, it can be interpreted that the total number of rides, number of
 ### Weekly Fare Totals Analysis
 
 **Figure 1: PyBer Weekly Fare Totals**
-< img src="/analysis/PyBer_fare_summary.png" width="200" height="100"/>
+<img src="/analysis/PyBer_fare_summary.png" width="200" height="100"/>
 **Figure 1.** shows the total weekly fares from January 2019 to April 2019 for each city type. 
 <br>
 The figure shows similar results as the table, with urban cities consistently having the highest weekly revenue. This is followed by suburban cities then rural cities. Despite the higher fare averages for suburban and rural cities, the weekly revenue totals remain obeservable lower than urban cities' revenue by about $500 - $1500 weekly.
