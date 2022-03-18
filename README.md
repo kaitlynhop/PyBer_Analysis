@@ -1,23 +1,24 @@
 # PyBer Analysis Overview
 Ride sharing data from company, PyBer, was organized, sorted, and analyzed statistically according to type: "Urban", "Suburban", and "Rural". Initial analysis,performed in [PyBer.ipynb](/PyBer.ipynb) includes the following data: 
-  1. Bubble chart plotting the total number of rides per city against the average fare in dollars according to city type with bubble size corresponding to the number of drivers in the city [Bubble Chart](/analysis/Fig1.png)
-  2. Box plots corresponding to statistical analysis of the number of rides for each city type [Total Rides Box Plot](/analysis/Fig2.png)
-  3. Box plots corresponding to statistical analysis of the fare amounts for each city type [Total Fares Box Plot](/analysis/Fig3.png)
-  4. Box plots corresponding to statistical analysis of the number of drivers for each city type [Total Drivers Box Plot](/analysis/Fig4.png)
-  5. Pie chart depicting the distribution of total fares according to city type [Total Fare %](/analysis/Fig5.png)
-  6. Pie chart depicting the distribution of total number of rides according to city type [Total Ride %](/analysis/Fig6.png)
-  7. Pie chart depicting the distribution of total number of drivers according to city type [Total Drivers %](/analysis/Fig7.png)
+  1. [Bubble Chart](/analysis/Fig1.png) plotting the total number of rides per city against the average fare in dollars according to city type with bubble size corresponding to the number of drivers in the city 
+  2. [Total Rides Box Plot](/analysis/Fig2.png) corresponding to statistical analysis of the number of rides for each city type 
+  3. [Total Fares Box Plot](/analysis/Fig3.png) corresponding to statistical analysis of the fare amounts for each city type 
+  4. [Total Drivers Box Plot](/analysis/Fig4.png) corresponding to statistical analysis of the number of drivers for each city type 
+  5. [Total Fare Percentage Pie Chart](/analysis/Fig5.png) depicting the distribution of total fares according to city type 
+  6. [Total Ride Percentage Pie Chart](/analysis/Fig6.png) depicting the distribution of total number of rides according to city type 
+  7. [Total Drivers Percentage Pie Chart](/analysis/Fig7.png) depicting the distribution of total number of drivers according to city type 
 
 Upon review of initial analysis, a second analysis was performed in [PyBer_Challenge.ipynb](/PyBer_Challenge.ipynb) that includes:
-  1. PyBer summary dataframe that organizes ride, driver, and fare data according to city type [PyBer Summary Table](/analysis/PyBer_summary_DF.png)
-  2. Multi-line chart analizing weekly fares from Jan. 2019 - Apr. 2019 according to city type [PyBer Weekly Fares](/analysis/PyBer_fare_summary.png)
+  1. [PyBer Summary Table](/analysis/PyBer_summary_DF.png) that organizes ride, driver, and fare data according to city type 
+  2. [PyBer Weekly Fares](/analysis/PyBer_fare_summary.png), a multi-line chart analizing weekly fares from Jan. 2019 - Apr. 2019 according to city type 
 
 ### Purpose
 The purpose of this project was to review data from PyBer ride sharing company to assess for patterns relating to revenue and ride availability according to city type.  
 
 ### Resources
-Data source: [Resources](/Resources/)
+Data source: [Resources/](/Resources/)
 <br>Tools: Python, Jupyter Notebook, PANDAS, Matplotlib, Numpy, Statistics
+<br>
 
 
 ## Results
@@ -29,12 +30,12 @@ Data source: [Resources](/Resources/)
 <br>
 Upon reviewal, there is clear correlation between values in the dataset among city types. Urban cities show the largest total rides, number of drivers, and fare revenue. Urban cities also have the lowest average ride cost per ride and ride cost per driver. This pattern continues with suburban cities with the second largest number of rides, drivers, and revenue and second smallest ride cost per ride and driver. Rural cities show the lowest number of rides, drivers, and total revenue with the highest ride cost per ride and per driver. 
 <br>
-From this table, it can be interpreted that the total number of rides, number of drivers available, and total revenue are positively correlated with each other. While the average fare per ride and average fare per driver tend to be negatively correlated with the totals, increasing average costs as total drivers, rides, and revenue decrease.
+From this table, it can be interpreted that the total number of rides, number of drivers available, and total revenue are positively correlated with each other. While the average fare per ride and per driver are negatively correlated, and show spike in values as total drivers, rides, and revenue decrease.
 
 ### Weekly Fare Totals Analysis
 
 **Figure 1: PyBer Weekly Fare Totals**
-![Weekly_Fares](/analysis/PyBer_fare_summary.png "Figure 1")
+< img src="/analysis/PyBer_fare_summary.png" width="200">
 **Figure 1.** shows the total weekly fares from January 2019 to April 2019 for each city type. 
 <br>
 The figure shows similar results as the table, with urban cities consistently having the highest weekly revenue. This is followed by suburban cities then rural cities. Despite the higher fare averages for suburban and rural cities, the weekly revenue totals remain obeservable lower than urban cities' revenue by about $500 - $1500 weekly.
