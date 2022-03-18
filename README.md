@@ -17,13 +17,20 @@ The purpose of this project was to review data from PyBer ride sharing company t
 
 ### Resources
 Data source: Resources/ 
-Tools: Python, Jupyter Notebook, PANDAS, Matplotlib
+<br>Tools: Python, Jupyter Notebook, PANDAS, Matplotlib
 
 
 ## Results
+### City Type Summary Analysis
+
 Table 1. shows total number of rides, total number of drivers, total sum of fares, average fare per ride, and average fare per driver for each city type for all PyBer data currently available. 
 ![Pyber_summary](/analysis/PyBer_summary_DF.png)
 *Table 1*
+
+### Weekly Fare Totals Analysis
+
+Figure 1. shows the total weekly fares from January 2019 to April 2019 for each city type. 
+![Weekly_Fares](/analysis/PyBer_fare_summary.png "Figure 1")
 
   - (Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types)
   - (Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type)
